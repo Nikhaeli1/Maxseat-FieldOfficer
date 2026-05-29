@@ -15,10 +15,17 @@
         "foregroundImage": "./assets/android-icon-foreground.png",
         "backgroundImage": "./assets/android-icon-background.png",
         "monochromeImage": "./assets/android-icon-monochrome.png"
-      }
+      },
+      "package": "com.nikhael.MaxSeatEnforcer"
     },
     "web": {
       "favicon": "./assets/favicon.png"
-    }
+    },
+    "extra": {
+      "eas": {
+        "projectId": "19482563-c23c-4e27-afd7-0a3b89fc71fe"
+      }
+    },
+    "owner": "nikhael"
   }
 }

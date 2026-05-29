@@ -4,7 +4,7 @@ import AsyncStorage from '@react-native-async-storage/async-storage';
 // ─── CONFIG ──────────────────────────────────────────────────────────────────
 // Change this to your FastAPI server's IP address on your local network.
 // Example: 'http://192.168.1.100:8000'
-export const BASE_URL = 'http://192.168.1.2:8000';
+export const BASE_URL = 'https://web-production-ab4a.up.railway.app';
 
 const TOKEN_KEY = '@maxseat_token';
 
